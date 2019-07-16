@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>Annie Website</title>
+  	<!-- Tell the browser to be responsive to screen width -->
+  	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	 <!-- Bootstrap 3.3.6 -->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<!-- Font Awesome -->
+  	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--  Custom Style -->
+  	<link rel="stylesheet" href="css/custom_annie_web.css">
+  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<!-- Bootstrap 3.3.6 -->
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body data-target="#mynavbar" data-offset="150" class="works-page">
+	<div class="navbar_head navbar-fixed-top" id="myAffix">
+		<div class="container">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		    </button>
+	    	<!-- <a href="#">
+				<img alt="Brand" src="img/Oval.png">
+			</a> -->
+			<ul>
+				<li><a href="annie_web.html">ABOUT</a></li>
+				<li class="active"><a href="annie_works.html">WORKS</a></li>
+				<li><a href="annie_contact.html">CONTACT</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main-content">
+			<section class="works">
+				<div class="container">
+					<h1 class="title text-center">Illustration</h1>
+					<div class="works-card-group">
+						<div class="illustrator" style="background-color: #ECF0F5">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-d.jpg);"></div>
+									</div>
+									<div class="ill-img img-md-350">
+										<div class="bg-setting" style="background-image: url(img/ill-19.jpg);"></div>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="ill-img img-md-350">
+										<div class="bg-setting" style="background-image: url(img/ill-bubblecity.jpg);"></div>
+									</div>
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-dream.jpg);"></div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-18.jpg);"></div>
+									</div>
+									<div class="ill-img img-md-350">
+										<div class="bg-setting" style="background-image: url(img/ill-a.jpg);"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-04.jpg);"></div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-05.jpg);"></div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-08.jpg);"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-20.jpg);"></div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-g.jpg);"></div>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="ill-img img-lg">
+										<div class="bg-setting" style="background-image: url(img/ill-14.jpg);"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>	
+		<footer class="footer-white">
+			Copyright &copy; moying made with love in 2019
+		</footer>
+	</div>
+
+	<script type="text/javascript">
+		$(function () {
+		// <!-- tooltip -->
+		  $('[data-toggle="tooltip"]').tooltip();
+		// <!-- popover -->
+		  $('[data-toggle="popover"]').popover();
+		// <!-- affix -->
+		$('#myAffix').affix({
+			offset: {
+			top: 750,
+			bottom: 100,
+			}
+		})
+		})
+	</script>
+</body>
+</html>
