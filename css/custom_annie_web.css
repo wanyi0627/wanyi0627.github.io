@@ -776,3 +776,12 @@ nav{
   color: #1A558C;
 }
 
+@media (max-width: 768px){
+  .card{
+    margin-bottom: 50px;
+  }
+  .works-card-text{
+    margin-bottom: 30px;
+  }
+}
+
